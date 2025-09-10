@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Registration form </title>
+<style>
+     label{
+        color: rgb(141, 17, 69);
+        font-style: italic;
+        font-size: large;
+     }
+     h2{
+        font-style: italic;
+        color: azure;
+        background-color: rgb(76, 176, 192);
+        border-radius: 30px;
+     }
+     body {
+      background-color:rgb(200, 215, 244);
+      text-align: justify;
+    }
+    input[type="submit"]{
+        color: rgb(141, 17, 69);
+        border-radius: 30px;
+        border-color:rgb(141, 17, 69) ;
+    }
+    form{
+        width: 500px;
+        margin: auto;
+    }
+</style>
+</head>
+<body>
+    <form>
+        <fieldset>
+    <h2 style="margin: auto;text-align: center;width: 500px;">STUDENT REGISTRATION FORM</h2>
+    <form>
+        <label for="first name">First name:</label>
+        <input type="text"id ="first name" name ="first name "><br><br>
+
+        <label for="last name">Last name:</label>
+        <input type="text"id ="last name" name ="last name "><br><br>
+
+        <label for="Date of Birth">Date of Birth:</label>
+        <input type="date" id="Date of Birth" name="Date of Birth"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        
+        
+        <label for="Category">Category:</label>
+<select id="Category" name="Category">
+    <option value="General">General</option>
+    <option value="OBC">OBC</option>
+    <option value="SC">SC</option>
+    <option value="ST">ST</option>
+    <option value="Others">Others</option>
+</select><br><br>
+ </fieldset>
+ <fieldset>
+<h2 style="margin: auto;text-align: center;">CONTACT INFORMATION</h2><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="number">Contact number:</label>
+<input type="number" id="number" name="number"><br><br>
+
+<label for="alt number">Alternate number:</label>
+<input type="number" id=" alt number" name="alt number"><br><br>
+
+<label for="address">Address:</label>
+<textarea id="address" name="address" rows="3" cols="40"></textarea><br><br>
+<fieldset>
+<h2 style="margin: auto;text-align: center;">ACADEMIC INFORMATION</h2><br>
+ 
+        <label for="roll number">Roll number:</label>
+        <input type="text"id ="roll number" name ="roll number"><br><br>
+
+         
+        <label for="Course">Course</label>
+<select id="Course" name="Course">
+    <option value="B.Tech">B.Tech</option>
+    <option value="B.Sc">B.Sc</option>
+    <option value="MCA">MCA</option>
+    <option value="MBA">MBA</option>
+    <option value="B.Pharm">B.Pharm</option>
+</select><br><br>
+
+<label for="branch">Branch:</label>
+<input type="text" id="branch" name="branch"><br><br>
+
+<label>Year of Study:</label><br>
+
+<input type="radio" id="year1" name="yearofstudy" value="1">
+<label for="year1">1</label><br>
+
+<input type="radio" id="year2" name="yearofstudy" value="2">
+<label for="year2">2</label><br>
+
+<input type="radio" id="year3" name="yearofstudy" value="3">
+<label for="year3">3</label><br>
+
+<input type="radio" id="year4" name="yearofstudy" value="4">
+<label for="year4">4</label><br>
+
+<label for="qualification">Previous Qualification:</label>
+<select id="qualification" name="qualification">
+  <option value="12th Grade">12th Grade</option>
+  <option value="Diploma">Diploma</option>
+  <option value="Other">Other</option>
+</select><br><br>
+
+<label for="percentage">Percentage in Previous Qualification:</label>
+<input type="text" id="percentage" name="percentage"><br><br>
+</fieldset>
+<fieldset>
+<h2 style="margin: auto;text-align: center;">Parent Details</h2><br><br>
+
+<label for="fathername">Father's Name:</label>
+<input type="text" id="fathername" name="fathername"><br><br>
+
+<label for="mother_name">Mother's Name:</label>
+<input type="text" id="mothername" name="mothername"><br><br>
+
+<label for="occupation">Occupation:</label>
+<input type="text" id="occupation" name="occupation"><br><br>
+
+<label for="parentnumber">Parent's Contact Number:</label>
+<input type="tel" id="parentnumber" name="parentnumber"  ><br><br>
+
+<label for="parentemail">Parent's Email:</label>
+<input type="email" id="parentemail" name="parentemail"><br><br>
+
+<input type="submit" value="submit">
+</fieldset>
+    </form>
+
+</body>
+</html>
