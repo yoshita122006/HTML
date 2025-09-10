@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Feedback form</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: brown;
+            color: antiquewhite;
+            font-style: italic;
+        }
+        label{
+            color: brown;
+            font-style: italic;
+            text-align: center;
+            font-size: larger;
+        }
+        body{
+            background-color: antiquewhite;
+           
+        }
+        p{
+            font-style: italic;
+            color: brown;
+             font-size: larger;
+        }
+        form {
+        width: 50%;         
+        margin: auto;        
+        border: 2px solid brown;
+        padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <form action="/feedback">
+    <h1>Feedback Form</h1>
+
+    <label for="full name">Name:</label>
+    <input type="text" name="full name " id="full name "><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" name="email " id="email"><br><br>
+
+    <label for="event">Event name:</label>
+    <select id="event" name="event" >
+    <option value="Marriage">Marriage</option>
+    <option value="Birthday">Birthday</option>
+    <option value="Engagement">Engagement</option>
+    <option value="Get together">Get together</option>
+    <option value="Naming ceremony">Naming ceremony</option>
+    <option value="Baby shower">Baby shower</option>
+    <option value="Graduation">Graduation</option>
+</select><br><br>
+<label for="event date">Event date:</label>
+<input type="date" name="event date" id="event date"><br><br>
+
+<label for="Attendee Type">Attendee Type:</label>
+<select id="Attendee Type" name="Attendee Type" >
+    <option value="Guest">Guest</option>
+    <option value=" Sponsor"> Sponsor</option>
+    <option value="Staff">Staff</option>
+    <option value="Event sponser">Event sponser</option>
+   
+</select>
+<br><br>
+<p>Overall Rating:</p>
+<input type="radio" id="1" name="rating" value="rating">
+    <label for="rating">1</label>
+
+    <input type="radio" id="2" name="rating" value="2">
+    <label for="rating">2</label>
+
+    <input type="radio" id="3" name="rating" value="3">
+    <label for="rating">3</label>
+
+    <input type="radio" id="4" name="rating" value="4">
+    <label for="rating">4</label>
+
+    <input type="radio" id="5" name="rating" value="5">
+    <label for="rating">5</label>
+   <br><br>
+    
+<p>Facility Rating:</p>
+<input type="radio" id="1" name="Facility Rating" value="rating">
+    <label for="Facility Rating">1</label>
+
+    <input type="radio" id="2" name="Facility Rating" value="2">
+    <label for="Facility Rating">2</label>
+
+    <input type="radio" id="3" name="Facility Rating" value="3">
+    <label for="Facility Rating">3</label>
+
+    <input type="radio" id="4" name="Facility Rating" value="4">
+    <label for="Facility Rating">4</label>
+
+    <input type="radio" id="5" name="Facility Rating" value="5">
+    <label for="Facility Rating">5</label>
+   <br><br>
+<p>Organizating Rating:</p>
+<input type="radio" id="1" name="Organizating Rating" value="1">
+    <label for="Organizating Rating">1</label>
+
+    <input type="radio" id="2" name="Organizating Rating" value="2">
+    <label for="Organizating Rating">2</label>
+
+    <input type="radio" id="3" name="Organizating Rating" value="3">
+    <label for="Organizating Rating">3</label>
+
+    <input type="radio" id="4" name="Organizating Rating" value="4">
+    <label for="Organizating Rating">4</label>
+
+    <input type="radio" id="5" name="Organizating Rating" value="5">
+    <label for="Organizating Rating">5</label>
+   <br><br>
+
+   <p>Food Rating:</p>
+<input type="radio" id="1" name="Food Rating" value="1">
+    <label for="Food Rating">1</label>
+
+    <input type="radio" id="2" name="Food Rating" value="2">
+    <label for="Food Rating">2</label>
+
+    <input type="radio" id="3" name="Food Rating" value="3">
+    <label for="Food Rating">3</label>
+
+    <input type="radio" id="4" name="Food Rating" value="4">
+    <label for="Food Rating">4</label>
+
+    <input type="radio" id="5" name="Food Rating" value="5">
+    <label for="Food Rating">5</label>
+   <br><br>
+
+    <label for="your feedback">Your Feedback:</label><br>
+    <textarea id="your feedback" name="your feedback" rows="5" cols="40" placeholder="Feedback here"></textarea><br><br>
+
+     <label for="suggestions for improvement">Suggestions for improvement:</label><br>
+    <textarea id="suggestions for improvement" name="suggestions for improvement" rows="5" cols="40" placeholder="Suggestions here"></textarea>
+
+<p>Would you attend again?</p>
+<input type="radio" id="yes" name="yes" value="yes">
+    <label for="yes">Yes</label>
+
+    <input type="radio" id="no" name="no" value="no">
+    <label for="no">No</label><br><br>
+
+     <input type="submit" value="Submit">
+     </form>
+</body>
+</html>
