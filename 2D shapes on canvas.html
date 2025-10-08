@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Shapes & Text</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500" height="400" style="border:1px solid black;background: #05b5eb;"></canvas>
+
+<script>
+  var c = document.getElementById("myCanvas");
+  var shape = c.getContext("2d");
+
+ shape.beginPath();
+  shape.arc(80, 70, 40, 0, 2 * Math.PI);
+  shape.stroke();
+
+  shape.beginPath();
+  shape.moveTo(200, 40);
+ shape.lineTo(160, 110);
+  shape.lineTo(280, 110);
+ shape.closePath();
+  shape.fill();
+
+ shape.beginPath();
+  shape.rect(300, 40, 80, 80);
+  shape.stroke();
+
+ shape.beginPath();
+  shape.fillStyle = "green";
+  shape.fillRect(60, 150, 100, 50);
+
+  shape.beginPath();
+  shape.moveTo(200, 150);
+ shape.lineTo(300, 200);
+shape.stroke();
+  
+ shape.closePath();
+  shape.fillStyle = "yellow";
+  shape.fill();
+
+  shape.font = "30px Arial";
+ shape.strokeText("Cyber", 150, 200);
+
+  shape.font = "bold 30px Arial";
+  shape.fillText("Security", 300, 350);
+
+</script>
+</body>
+</html>

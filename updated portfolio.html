@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Divya Yoshita - Portfolio</title>
+    <style>
+       
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e1f5fe;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #fbc02d;
+            color: #01579b;
+            padding: 25px ;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(251, 192, 45, 0.6);
+            position: sticky;
+            top:0;
+            height: 150px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        header p {
+            font-size: 20px;
+            font-style: italic;
+            margin-top: 5px;
+            letter-spacing: 0.5px;
+        }
+        nav {
+            text-align: center;
+            background:   #e1f5fe;
+            padding: 15px ;
+            box-shadow: 0 4px 8px rgba(251, 192, 45, 0.6);
+            position: sticky;
+            top: 150px;  
+        } 
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 25px;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 8px 15px;
+            border-radius: 8px;
+            
+        }
+        .container {
+            max-width: 900px;
+            margin-top: 40px;
+            margin-right: auto;
+            margin-bottom: 60px;
+            margin-left: auto;
+            padding: 30px 25px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(251, 192, 45, 0.3);
+            border-radius: 12px;
+            border: 3px solid #fbc02d;
+        }
+        fieldset {
+            border: 2px solid #81d4fa;
+            border-radius: 12px;
+            padding: 25px 30px;
+            margin-bottom: 35px;
+            background: #e1f5fe;
+            scroll-margin-top: 250px;
+        }
+        legend {
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #fbc02d;
+            padding: 15px;
+            width: auto;
+            border: 2px solid #fbc02d;
+            border-radius: 12px;
+            background-color: white;
+            box-shadow: 0 2px 6px rgba(251, 192, 45, 0.4);
+        }
+        ul, ol {
+            margin-left: 25px;
+            font-size: 16px;
+            color: #333;
+        }
+        .project-list li {
+            margin-bottom: 25px;
+            line-height: 2;
+        }
+       
+        .project-list a {
+            text-decoration: none;
+            color: #01579b;
+            font-weight: bold;
+        }
+        .contact-info {
+            font-size: 18px;
+            text-align: center;
+            color: #222;
+            margin: 8px;
+        }
+        button a {
+            text-decoration: none;
+            color: #01579b;
+        }
+        button {
+            background-color: #81d4fa;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            box-shadow: 0 3px 6px rgba(129, 212, 250, 0.6);
+        }
+        button:hover {
+            background-color: #4fc3f7;
+            box-shadow: 0 6px 12px rgba(79, 195, 247, 0.8);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Divya Yoshita</h1>
+        <p>Cyber Security Student | Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <div class="container">
+
+       <a href="myphoto.jpg" target="_blank">
+            <img src="myphoto.jpg" alt="my photo" style="display: block; margin: auto; width: 150px; height: 200px; border: 3px solid #fbc02d; border-radius: 100px;">
+       </a>
+
+        <fieldset>
+            <legend>About Me</legend>
+            <p>I am Divya Yoshita, a passionate Cyber Security student studying at MOHAN BABU UNIVERSITY.  
+            I specialize in Web Development and Machine Learning, enjoy building practical projects, and constantly aim to improve my skills.</p>
+        </fieldset>
+
+        <fieldset id="skills">
+            <legend>Skills</legend>
+            <ul>
+                <li>Java Programming</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </fieldset>
+
+        <fieldset id="education">
+        <legend>Education</legend>
+        <p><strong>B.Tech in Cyber Security</strong><br>
+        Mohan Babu University<br>
+        Expected Graduation: 2027<br>
+        </p>
+        </fieldset>
+
+        <fieldset id="projects">
+            <legend>Projects</legend>
+            <ul class="project-list">
+                <li>
+                    <strong>Customer Segmentation in Mall</strong><br>
+                    Segmented mall customers using clustering for targeted marketing.<br>
+                    Python, K-Means, Data Analysis<br>
+                    <a href="#" target="_blank"><button>View Project</button></a>
+                </li>
+                <li>
+                    <strong>Event Management Database</strong><br>
+                    Designed a relational database to manage events and scheduling.<br>
+                    SQL, ER Diagrams, Database Design<br>
+                    <a href="#" target="_blank"><button>View Project</button></a>
+                </li>
+                <li>
+                    <strong>Vehicle Counting Prediction System</strong><br>
+                    Built an ML model to count vehicles in traffic videos.<br>
+                    Python, OpenCV, Machine Learning<br>
+                    <a href="#" target="_blank"><button>View Project</button></a>
+                </li>
+                <li>
+                    <strong>LPG Cylinder Supply Station Safety System</strong><br>
+                    Automated gas detection system using sensors and microcontrollers for remote control and real-time monitoring.<br>
+                    Arduino, ESP8266, MQTT, Sensors (Temp, Humidity, Motion), Cloud Platform (Thingspeak/AWS IoT)<br>
+                    <a href="#" target="_blank"><button>View Project</button></a>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset id="hobbies">
+            <legend>Hobbies</legend>
+            <ol>
+                <li>Listening to Music</li>
+                <li>Learning New Skills</li>
+                <li>Sketching</li>
+            </ol>
+        </fieldset>
+
+        <fieldset id="contact">
+            <legend>Contact Me</legend>
+            <p class="contact-info"><strong>Email:</strong> divya.gangineni2@gmail.com</p>
+            <p class="contact-info"><strong>Phone:</strong> 9686322532</p>
+            <p class="contact-info"><strong>LinkedIn:</strong> <button><a href="https://www.linkedin.com/in/divya-yoshita-gangineni-871405294" target="_blank">My LinkedIn</a></button></p>
+            <p class="contact-info"><strong>GitHub:</strong> <button><a href="https://github.com/yoshita122006" target="_blank">My GitHub</a></button></p>
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>

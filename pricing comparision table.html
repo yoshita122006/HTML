@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Nonprofit Pricing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f7f8fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 400;
+            color: #4a5568;
+        }
+
+        .pricing-header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .plan {
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .plan img {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .plan h3 {
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .plan p {
+            font-size: 0.9em;
+            color: #718096;
+        }
+
+        .plan a.button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 18px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.95em;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+        }
+
+        .feature-header {
+            text-align: left;
+            font-weight: 600;
+            background: #f7fafc;
+        }
+
+        .checkmark {
+            width: 18px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 1000px) {
+            .pricing-header {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple nonprofit pricing</h1>
+
+        <div class="pricing-header">
+            <div class="plan">
+                
+                <h3>GoFundMe</h3>
+                <p>Quick and easy online crowdfunding</p>
+                <a href="#" class="button">Get Started</a>
+            </div>
+
+            <div class="plan">
+                
+                <h3>Essential</h3>
+                <p>All the basics for event & team crowdfunding</p>
+                <a href="#" class="button">Get Started</a>
+            </div>
+
+            <div class="plan">
+                
+                <h3>Premium</h3>
+                <p>Everything you need to grow your nonprofit</p>
+                <a href="#" class="button">Contact Us</a>
+            </div>
+
+            <div class="plan">
+                
+                <h3>Enterprise</h3>
+                <p>Advanced features for scaling your nonprofit</p>
+                <a href="#" class="button">Contact Us</a>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>GoFundMe</th>
+                    <th>Essential</th>
+                    <th>Premium</th>
+                    <th>Enterprise</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Plan cost</strong></td>
+                    <td>Free</td>
+                    <td>Free</td>
+                    <td>Contact us</td>
+                    <td>Contact us</td>
+                </tr>
+                <tr>
+                    <td><strong>Platform fee</strong></td>
+                    <td>0%</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>Contact us</td>
+                </tr>
+                <tr>
+                    <td><strong>Payment processing</strong></td>
+                    <td>2.9% + 30¢</td>
+                    <td>2.9% + 30¢</td>
+                    <td>2.4% + 30¢</td>
+                    <td>Contact us</td>
+                </tr>
+
+                <tr class="feature-header">
+                    <td colspan="5">Features</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Unlimited fundraising campaigns</strong></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Easy access to funds</strong></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Mobile optimized</strong></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Basic donor data</strong></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Team fundraising</strong></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Unlimited fundraising events</strong></td>
+                    <td></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Comprehensive donor data</strong></td>
+                    <td></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                    <td><img class="checkmark" src="https://img.icons8.com/ios-glyphs/30/26e07f/checkmark.png"/></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
